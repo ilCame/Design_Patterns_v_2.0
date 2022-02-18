@@ -1,6 +1,5 @@
 package factory.factorymethod;
 
-import factory.factorymethod.dialog.AbstractDialog;
 import factory.factorymethod.dialog.impl.WebDialog;
 import factory.factorymethod.dialog.impl.WindowsDialog;
 import org.junit.jupiter.api.BeforeEach;
@@ -9,7 +8,6 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class ApplicationTest {
-    private AbstractDialog abstractDialog;
     private Application application;
 
     @BeforeEach
