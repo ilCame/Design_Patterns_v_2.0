@@ -5,7 +5,7 @@ import factory.factorymethod.dialog.impl.WebDialog;
 import factory.factorymethod.dialog.impl.WindowsDialog;
 
 public class Application {
-    private AbstractDialog abstractDialog;
+    public AbstractDialog abstractDialog;
     private String config;
 
     public String getConfig() {
